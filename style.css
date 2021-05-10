@@ -19,12 +19,13 @@ body{
 .nav-container {
     height: 100px;
     background:#F2F7FFB2;
+    position: sticky;
+    top: 0;
 }
 
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-
 }
 
 nav{
@@ -102,7 +103,7 @@ header p {
 }
 
 /* Nosotrxs Container*/
-.nosotxs-container {
+.nosotrxs-container {
     display: flex;
     align-items: center;
 }
@@ -128,4 +129,38 @@ header p {
     /* or 111% */
     color: #000000;
     margin-bottom: 44px;
+}
+
+.banana-image{
+    margin-left: 200px;
+}
+
+.cta h2{
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #A66FE0;
+}
+ /*  Banner  */
+.banner-division {
+    display: flex;
+    align-items: center;
+}
+
+.banner-division img{
+    margin-left: 120px;
+}
+
+/*  descubrir  */
+.descubrir-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Titulo-Seccion{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
 }
