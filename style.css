@@ -1,0 +1,131 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*  Navigation  */
+
+/* Datos para el scroll down con JS
+    height: 100px;
+    background: #FFFFFA;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+*/
+
+.nav-container {
+    height: 100px;
+    background:#F2F7FFB2;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    width: 39px;
+    height: 47px;
+    left: 0px;
+    top: 3px;
+    margin-top: 25px;
+}
+
+.nav-items li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.social-icons li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.nav-items li a{
+    color: #60269E;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+/*  Header  */
+.header-container {
+    background-position: right;
+    background: #F2F7FFB2 url("images/bg-header.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+   
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+header h1 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #18191F;
+    margin-bottom: 44px;
+}
+
+header p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    /* or 111% */
+    color: #18191F;
+    margin-bottom: 44px;
+}
+
+/* Nosotrxs Container*/
+.nosotxs-container {
+    display: flex;
+    align-items: center;
+}
+
+.texto-img {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-img h1 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.texto-img p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    /* or 111% */
+    color: #000000;
+    margin-bottom: 44px;
+}
