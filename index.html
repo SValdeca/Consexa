@@ -177,21 +177,72 @@
     <div class="precios-container">
         <div class="wrapper">
             <div class="precios-title">
-                <h1>Planes que tenemos para ti</h1>
+                <h1>Temas en los que podemos ayudarte</h1>
             </div>
-            <div class="precio">
-                
-            </div>
-            <div class="precio">
-                
+            <div class="precios">
+                <img src="images/basic.png" alt="" width="526" height="544">
+                <img src="images/premium.png" alt="" width="526" height="544">
             </div>
         </div>
     </div>
 
     <div class="footer-container">
+        <div class="wrapper">
+            <footer>
+                <div class="logo-footer">
+                    <img src="images/logoConsexa.png" alt="" width="139" height="91" style="margin-top: 50px;">
+                </div>
 
+                <ul class="footer-items">
+                    <li>
+                        <a href="#">Nosotrxs</a>
+                    </li>
+                    <li>
+                        <a href="#">Descubrir</a>
+                    </li>
+                    <li>
+                        <a href="#">Precios</a>
+                    </li>
+                </ul>
+
+                <hr class="solid">
+
+                <ul class="footer-social-icons">
+                    <li>
+                        <a class="ig-btn-container" href="#">
+                            <img class="ig-btn" src="images/ig-logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fb-btn-container" href="#">
+                            <img class="fb-btn" src="images/fb-logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="tw-btn-container" href="#">
+                            <img class="tw-btn" src="images/tw-logo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="contacto">
+                    <h3>© 2021 Consexa. Todos los derechos reservados</h3>
+                    <h3 style="margin-left: 400px;">consexamx@gmail.com</h3>
+                </div>
+                
+            </footer>
+        </div>
     </div>
     
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Consexa"
+      agent-id="1822ccff-cda7-4b1d-84bb-05022d97ee87"
+      language-code="es"
+    ></df-messenger>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+
     <script src="main.js"></script>
 </body>
 </html>

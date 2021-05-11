@@ -200,9 +200,74 @@ header p {
     margin-left: 60px;
 }
 
-/* precios */
+/*  precios  */
 
 .precios-title{
     margin-left: 380px;
     margin-bottom: 100px;
+}
+
+.precios{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 100px;
+}
+
+/*  footer  */
+
+.footer-container {
+    height: 390px;
+    background: #F2F7FFB2;
+}
+
+.logo-footer{
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+.footer-items{
+    display: flex;
+    margin-left: 350px;
+}
+
+.footer-items li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.footer-items li a {
+    color: #60269E;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+hr.solid {
+    border-top: 3px solid#A66FE0B2;
+    margin-top: 30px;
+}
+
+.footer-social-icons{
+    display: flex;
+    margin-left: 1000px;
+}
+
+.footer-social-icons li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.contacto{
+    display: flex;
+    margin-top: 30px;
+}
+.contacto h3{
+    color: #60269E;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
 }
