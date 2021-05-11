@@ -163,4 +163,46 @@ header p {
     display: flex;
     align-items: center;
     margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.topics{
+    display: flex;
+    align-items: center;
+}
+
+.topic-conse{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.topic-conse h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    /* or 111% */
+    color: #000000;
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+
+.topic-conse p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    /* or 111% */
+    color: #000000;
+    margin-left: 60px;
+}
+
+.topic-conse img{
+    margin-left: 60px;
+}
+
+/* precios */
+
+.precios-title{
+    margin-left: 380px;
+    margin-bottom: 100px;
 }
