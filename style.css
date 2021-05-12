@@ -168,7 +168,7 @@ header p {
 .Titulo-Seccion{
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-bottom: 50px;
 }
 
@@ -209,7 +209,7 @@ header p {
 /*  precios  */
 
 .precios-title{
-    margin-left: 380px;
+    margin-left: 350px;
     margin-bottom: 100px;
 }
 
@@ -227,7 +227,7 @@ header p {
 /*  footer  */
 
 .footer-container {
-    height: 285px;
+    height: 260px;
     background: #F2F7FFB2;
     backdrop-filter: blur(20px);
 }
@@ -245,7 +245,7 @@ header p {
 .footer-items li{
     list-style: none;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer-items li a {
@@ -273,7 +273,7 @@ hr.solid {
 }
 .contacto{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .contacto h3{
     color: #60269E;
@@ -308,6 +308,14 @@ hr.solid {
     margin-bottom: -200px;
     z-index: 1;
 }
-/*
-margin-left: -120px; margin-top: 550px;
-*/
+
+df-messenger {
+    --df-messenger-bot-message: #43C6E6;
+    --df-messenger-button-titlebar-color: #df9b56;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: white;
+    --df-messenger-send-icon: #878fac;
+    --df-messenger-user-message: #60269E;
+    ;
+}
+ 

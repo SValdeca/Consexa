@@ -17,13 +17,13 @@
 
                 <ul class="nav-items">
                     <li>
-                        <a href="#">Nosotrxs</a>
+                        <a href="#nosotrxs">Nosotrxs</a>
                     </li>
                     <li>
-                        <a href="#">Descubrir</a>
+                        <a href="#descubrir">Descubrir</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="#contacto">Contacto</a>
                     </li>
                 </ul>
 
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <div class="nosotrxs-container">
+    <div class="nosotrxs-container" id="nosotrxs">
      
         <div class="wrapper">
             <div class="texto-img">
@@ -116,7 +116,7 @@
         <img src="images/Banner.png" alt="" width="1259" height="637" >
     </div>
 
-    <div class="descubrir-container">
+    <div class="descubrir-container" id="descubrir">
         
         <div class="wrapper">
             <div class="Titulo-Seccion">
@@ -130,7 +130,7 @@
                     </div>
                     <div class="txt-container" >
                         <h1>Relaciones</h1>
-                        <p>El amor, el silencio, la compañia, la <br>
+                        <p>El amor, el silencio, la compañía, la <br>
                             amistad y todo lo que conlleva <br>
                             llegar al punto con tu pareja.</p>  
                     </div>
@@ -144,7 +144,7 @@
                         <h1>Métodos anticonceptivos</h1>
                         <p>Disfruta sin preocupaciones, te <br>
                             recomendaremos los mejores <br>
-                            metodos para tener una excelente <br>
+                            métodos para tener una excelente <br>
                             salud reproductiva.</p>  
                     </div>
 
@@ -172,7 +172,7 @@
                     </div>
                     <div class="txt-container" >
                         <h1>Consentimiento</h1>
-                        <p>Tienes derecho a decirdir sobre <br>
+                        <p>Tienes derecho a decidir sobre <br>
                             como, cuando y donde. Te <br>
                             apoyamos en como hablar sobre <br>
                             esto con tus parejas sexuales.</p>  
@@ -183,7 +183,7 @@
         </div>
     </div>
 
-    <div class="precios-container">
+    <div class="precios-container"  id="precios">
         <div class="wrapper">
             <div class="precios-title">
                 <h1>Temas en los que podemos ayudarte</h1>
@@ -195,7 +195,7 @@
         </div>
     </div>
 
-    <div class="footer-container">
+    <div class="footer-container" id="contacto">
         <div class="wrapper">
             <footer>
                 <div class="logo-footer">
@@ -204,13 +204,13 @@
 
                 <ul class="footer-items">
                     <li>
-                        <a href="#">Nosotrxs</a>
+                        <a href="#nosotrxs">Nosotrxs</a>
                     </li>
                     <li>
-                        <a href="#">Descubrir</a>
+                        <a href="#descubrir">Descubrir</a>
                     </li>
                     <li>
-                        <a href="#">Precios</a>
+                        <a href="#precios">Precios</a>
                     </li>
                 </ul>
 
@@ -247,13 +247,14 @@
         <img src="images/ovalo-footer.png" alt="" width="143" height="588" style="margin-top: -30px;">
     </div>
     
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1" style="z-index: 900;"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
-      intent="WELCOME"
-      chat-title="Consexa"
-      agent-id="1822ccff-cda7-4b1d-84bb-05022d97ee87"
-      language-code="es"
+  intent="WELCOME"
+  chat-title="Consexa"
+  agent-id="1822ccff-cda7-4b1d-84bb-05022d97ee87"
+  language-code="es"
     ></df-messenger>
+
     <meta name="viewport" content="width-device-width, initial-scale=1">
 
     <script src="main.js"></script>
