@@ -48,6 +48,10 @@ nav .logo {
     margin-top: 25px;
 }
 
+.nav-items{
+    margin-left: 50px;
+}
+
 .nav-items li{
     list-style: none;
     margin-right: 50px;
@@ -76,7 +80,7 @@ nav .logo {
     background-size: contain;
     display: flex;
     align-items: center;
-   
+    padding-right: 100px;
 }
 
 header {
@@ -223,19 +227,19 @@ header p {
 /*  footer  */
 
 .footer-container {
-    height: 390px;
+    height: 285px;
     background: #F2F7FFB2;
     backdrop-filter: blur(20px);
 }
 
 .logo-footer{
-    margin-top: 50px;
-    margin-left: 530px;
+    margin-top: 30px;
+    margin-left: 550px;
 }
 
 .footer-items{
     display: flex;
-    margin-left: 350px;
+    margin-left: 390px;
 }
 
 .footer-items li{
@@ -246,7 +250,7 @@ header p {
 
 .footer-items li a {
     color: #60269E;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
@@ -254,7 +258,7 @@ header p {
 
 hr.solid {
     border-top: 3px solid#A66FE0B2;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer-social-icons{
@@ -265,15 +269,15 @@ hr.solid {
 .footer-social-icons li{
     list-style: none;
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .contacto{
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .contacto h3{
     color: #60269E;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
@@ -296,8 +300,14 @@ hr.solid {
 .ovalo-transparente{
     margin-right: 50px;
     margin-bottom: -340px;
+    z-index: 3;
 }
 
+.ovalo-morado{
+    margin-left: -100px;
+    margin-bottom: -200px;
+    z-index: 1;
+}
 /*
 margin-left: -120px; margin-top: 550px;
 */
