@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav-container">
+    <div class="nav-container" style="z-index: 300;">
         <div class="wrapper">
             <nav>
                 <div class="logo">
@@ -58,10 +58,16 @@
                         dudas sobre sexualidad</p>
                     <a href="#"><img src="images/btn-descubrir.png" alt=""></a>
                 </div>
-                <div class="hero-image" style="margin-left: 100px;">
-                    <img src="images/Cel_landing.png" alt="" height="657" width="315">
+                <div class="hero-image" style="z-index: 1;">
+                    <img src="images/Cel_landing.png" alt="" height="591" width="284">
+                </div>
+                <div class="fondo-circulos">
+                    <img src="images/circulos.png" alt="" width="144" height="389">
                 </div>
             </header>
+        </div>
+        <div class="ovalo-transparente">
+            <img src="images/ovalo-transparente.png" alt="" height="544" width="152">
         </div>
     </div>
 
@@ -180,7 +186,7 @@
                 <h1>Temas en los que podemos ayudarte</h1>
             </div>
             <div class="precios">
-                <img src="images/basic.png" alt="" width="526" height="544">
+                <img src="images/basic.png" alt="" width="526" height="544" style="z-index: 150;">
                 <img src="images/premium.png" alt="" width="526" height="544">
             </div>
         </div>
@@ -233,8 +239,12 @@
             </footer>
         </div>
     </div>
+
+    <div class="fondo-footer">
+        <img src="images/ovalo-footer.png" alt="" width="143" height="588" style="margin-top: -30px;">
+    </div>
     
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1" style="z-index: 900;"></script>
     <df-messenger
       intent="WELCOME"
       chat-title="Consexa"

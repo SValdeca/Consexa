@@ -13,7 +13,7 @@ body{
     height: 100px;
     background: #FFFFFA;
     box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(100px);
+    
 */
 
 .nav-container {
@@ -21,6 +21,7 @@ body{
     background:#F2F7FFB2;
     position: sticky;
     top: 0;
+    backdrop-filter: blur(10px);
 }
 
 .wrapper {
@@ -82,13 +83,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
+    margin-left: 100px;
 }
 
 header h1 {
     font-family: "Open Sans",sans-serif;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 58px;
     color: #18191F;
     margin-bottom: 44px;
 }
@@ -96,7 +98,7 @@ header h1 {
 header p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     /* or 111% */
     color: #18191F;
     margin-bottom: 44px;
@@ -109,7 +111,7 @@ header p {
 }
 
 .texto-img {
-    margin-top: 75px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
 }
@@ -214,11 +216,16 @@ header p {
     margin-bottom: 100px;
 }
 
+.precios-container{
+    z-index: 200;
+}
+
 /*  footer  */
 
 .footer-container {
     height: 390px;
     background: #F2F7FFB2;
+    backdrop-filter: blur(20px);
 }
 
 .logo-footer{
@@ -271,3 +278,26 @@ hr.solid {
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
+
+
+/*detalles diseño*/
+.fondo-circulos{
+    margin-left: -140px;
+    margin-bottom: -550px;
+    z-index: 0;
+}
+
+.fondo-footer{
+    z-index: -1;
+    margin-top: -560px;
+    margin-left: 100px;
+}
+
+.ovalo-transparente{
+    margin-right: 50px;
+    margin-bottom: -340px;
+}
+
+/*
+margin-left: -120px; margin-top: 550px;
+*/
