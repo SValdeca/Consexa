@@ -310,12 +310,12 @@ hr.solid {
 }
 
 df-messenger {
-    --df-messenger-bot-message: #43C6E6;
-    --df-messenger-button-titlebar-color: #df9b56;
+    --df-messenger-bot-message: #87daef;
+    --df-messenger-button-titlebar-color:  #60269E;
     --df-messenger-chat-background-color: #fafafa;
     --df-messenger-font-color: white;
     --df-messenger-send-icon: #878fac;
-    --df-messenger-user-message: #60269E;
-    ;
+    --df-messenger-user-message: #9383f7;
+    z-index: 1000;
 }
  
